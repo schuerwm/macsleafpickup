@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto">
         <div className="mb-8">
           <div className="text-8xl mb-4 leaf-bounce">🍂</div>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg kid-handwriting">
+          <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-bold text-white mb-6 drop-shadow-lg kid-handwriting" style={{fontFamily: 'Kalam, Comic Neue, Comic Sans MS, cursive'}}>
             Leaf It To Mac
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-md">

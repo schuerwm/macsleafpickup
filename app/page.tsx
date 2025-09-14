@@ -5,8 +5,6 @@ import Hero from '@/components/Hero'
 import ServiceArea from '@/components/ServiceArea'
 import Pricing from '@/components/Pricing'
 import LeafCounter from '@/components/LeafCounter'
-import Testimonials from '@/components/Testimonials'
-import Contact from '@/components/Contact'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
@@ -29,8 +27,6 @@ export default function Home() {
       <LeafCounter count={leavesCollected} />
       <ServiceArea />
       <Pricing />
-      <Testimonials />
-      <Contact />
       <Footer />
     </main>
   )

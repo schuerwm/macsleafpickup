@@ -13,7 +13,7 @@ export default function Header() {
             <div className="text-4xl">🍂</div>
             <div>
               <h1 className="text-2xl text-leaf-dark-green kid-handwriting" style={{fontFamily: 'Reenie Beanie, Comic Sans MS, cursive'}}>Leaf It To Mac</h1>
-              <p className="text-sm text-gray-600">Professional Leaf Raking for Kids!</p>
+              <p className="text-sm text-gray-600">🍂 Mac's Super Fun Leaf Cleanup Service! 🍂</p>
             </div>
           </div>
           

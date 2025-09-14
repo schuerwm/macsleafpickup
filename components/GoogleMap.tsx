@@ -17,7 +17,7 @@ export default function GoogleMap({ center, zoom, serviceArea }: GoogleMapProps)
   useEffect(() => {
     // Check if we have a valid API key
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
-    if (!apiKey || apiKey === 'YOUR_API_KEY_HERE' || apiKey === 'DEMO_KEY') {
+    if (!apiKey || apiKey === 'AIzaSyAj8gbtzSnfCJc3yfTFk1sgHo6kOBm-KKM' || apiKey === 'DEMO_KEY') {
       setIsLoaded(true)
       return
     }

@@ -41,8 +41,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">Contact Mac</h4>
             <ul className="space-y-2 text-sm text-white/80">
-              <li>📞 (555) LEAF-RAK</li>
-              <li>📧 mac@leafservice.com</li>
+              <li>📞 513-207-6054</li>
               <li>🏠 Richwood Circle Area</li>
               <li>⏰ Weekends & After School</li>
             </ul>
