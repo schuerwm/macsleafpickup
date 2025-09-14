@@ -4,21 +4,19 @@ export default function Hero() {
   return (
     <section className="relative py-20 px-4 text-center overflow-hidden">
       {/* Background fall image */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-          alt="Beautiful fall leaves and autumn scene"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-leaf-green/80 to-leaf-dark-green/80"></div>
+      <div 
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/brett-jordan-6rm2fdgFz_s-unsplash.jpg')"
+        }}
+      >
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto">
         <div className="mb-8">
           <div className="text-8xl mb-4 leaf-bounce">🍂</div>
-          <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-bold text-white mb-6 drop-shadow-lg kid-handwriting" style={{fontFamily: 'Kalam, Comic Neue, Comic Sans MS, cursive'}}>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg">
             Leaf It To Mac
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-md">
