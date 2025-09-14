@@ -131,7 +131,7 @@ export default function Pricing() {
             Extra Fun Services! 🎉
           </h3>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/90 rounded-2xl p-6">
               <h4 className="text-xl font-bold text-leaf-dark-green mb-4">Leaf Art Creation 🎨</h4>
               <p className="text-gray-700 mb-4">We'll create beautiful leaf art in your yard!</p>
@@ -142,6 +142,12 @@ export default function Pricing() {
               <h4 className="text-xl font-bold text-leaf-dark-green mb-4">Leaf Pile Jumping Session 🦘</h4>
               <p className="text-gray-700 mb-4">Watch us have fun jumping in the leaves! 1000 jumps guaranteed!</p>
               <div className="text-2xl font-bold text-autumn-orange">$1</div>
+            </div>
+            
+            <div className="bg-white/90 rounded-2xl p-6">
+              <h4 className="text-xl font-bold text-leaf-dark-green mb-4">Lizard Catching Service 🦎</h4>
+              <p className="text-gray-700 mb-4">Remove lizards from your yard or catch them for pets! Super fun adventure!</p>
+              <div className="text-2xl font-bold text-autumn-orange">$1 per lizard</div>
             </div>
           </div>
         </div>
